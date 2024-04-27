@@ -1,0 +1,14 @@
+:host {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    min-height: 100vh;
+}
+
+app-sidebar {
+    background-color: aliceblue;
+}
+main {
+    background-color: antiquewhite;
+}
+
+

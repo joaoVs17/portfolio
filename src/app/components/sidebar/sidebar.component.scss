@@ -1,0 +1,88 @@
+:host {
+    border-radius: 0px 8px 8px 0px;
+    aside {
+        background-color: white;
+        height: 100%;
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.5s;
+        #logo {
+            margin-bottom: 1.5rem;
+            div {
+                div {
+                    background-color: #7e57c2;
+                    border-radius: 4px;
+                    font-weight: 900;
+                    color: white;
+                }
+                span {
+                    font-size: large;
+                    font-weight: 800;
+                    color: #455a64;
+                }
+            }
+        }
+        hr{
+            margin-bottom: 1rem;
+            color: #eceff1;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        #collapse-button {
+            width: 40px;
+            height: 40px;
+            margin-top: auto;
+        }
+    }
+}
+
+.sidebar-button {
+    border-radius: 8px;
+    &:hover {
+        cursor: pointer;
+        background-color: chocolate;
+    }
+    i {
+        font-size: large;
+        font-weight: 200;
+    }
+    color: #b0bec5;
+}
+
+
+.collapsed {
+    width: 64px;
+}
+
+.expanded {
+    width: 256px;
+}
+
+.collapsible-item {
+    height: 40px;
+    div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        div {
+            min-width: 40px;
+            max-width: 40px;
+            display: flex;
+            justify-content: center;
+        }
+        span{
+            margin-left: 12px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+}

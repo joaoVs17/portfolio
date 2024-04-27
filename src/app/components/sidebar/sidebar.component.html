@@ -1,1 +1,29 @@
-<p>sidebar works!</p>
+<aside [ngClass]="{'collapsed':collapsed ,'expanded':!collapsed}">
+    <div class="collapsible-item" id="logo"> 
+        <div>
+            <div>J</div>
+            <span>João Vitor Simão</span>
+        </div>
+    </div>
+    
+    <hr>
+
+    <nav>
+    <ul>
+        <li class="sidebar-button collapsible-item" *ngFor="let topic of topics">
+            <div>
+                <div><i class="{{topic.icon}}"></i></div>
+                <span>{{topic.title}}</span>
+            </div>
+        </li>
+        
+    </ul>
+    </nav>
+    
+    <div class="sidebar-button collapsible-item" id="collapse-button" (click)="toggleCollapse()">
+        <div>
+            <div><i class="pi pi-angle-double-right"></i></div>
+            <span>Collapse</span>
+        </div>
+    </div>
+</aside>
