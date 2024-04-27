@@ -1,0 +1,20 @@
+* {
+    outline: none;
+    border: none;
+}
+:host {
+    background-color: white !important;
+    div {
+        ul {
+            list-style: none;
+            li {
+                border-radius: 4px;
+                padding: 4px;
+                &:hover {
+                    background-color: #b0bec5;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

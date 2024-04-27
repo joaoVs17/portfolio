@@ -1,0 +1,8 @@
+<h1>Meus projetos</h1>
+<section>
+    
+    @for (project of projects_data; track project) {
+        <app-project [img]="project.img" [title]="project.title" [description]="project.description"></app-project>
+    }
+
+</section>

@@ -1,0 +1,17 @@
+[
+    {
+        "img": "../../../assets/imgs/warehouse.png",
+        "title": "Warehouse",
+        "description": "Warehouse foi um app desenvolvido em Angular para fins de estudo. Consiste em um sistema de organização de arquivos e pastas. Embora não esteja finalizado, possui funcionalidades de drag and drop bem como outras funções de gestão de arquivos."    
+    },
+    {
+        "img": "../../../assets/imgs/secomp.png",
+        "title": "Site Secomp 2023",
+        "description": "Um pequeno site desenvolvido para divulgação de um evento realizado na metade do ano de 2023 na UFSJ, feito com as tecnologias básicas de front-end."
+    },
+    {
+        "img": "../../../assets/imgs/cloths.png",
+        "title": "Cloths",
+        "description": "Projeto desenvolvido como projeto final para conclusão do ensino técnico. Se trata de um sistema desenvolvido usando o framework Django, destinado à simplificação do pedido de roupas por condicional."
+    }
+]

@@ -1,0 +1,9 @@
+<h1>Contato</h1>
+<section>
+    <ul>
+        <li *ngFor="let contact of contacts">
+            <p><span>{{contact.type}}:</span> {{contact.value}}</p>
+            <i class="{{contact.icon}}"></i>
+        </li>
+    </ul>
+</section>

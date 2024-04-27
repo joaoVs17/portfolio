@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Onde visitar?</h1>
+<div mat-dialog-content (document:keydown.control.k)="closeDialog($event)">
+    <ul>
+        <li *ngFor="let topic of topics">
+            <div routerLink="/{{topic.link}}" (click)="closePopUp()">{{topic.title}}</div>
+        </li>
+    </ul>
+</div>

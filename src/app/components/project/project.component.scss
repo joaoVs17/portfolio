@@ -1,0 +1,25 @@
+:host {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    img{
+        width: 400px;
+        filter: drop-shadow(-1px 0px 4px #b0bec5);
+    }
+    h3 {
+        font-size: medium;
+        font-weight: 600;
+        color: #ab47bc;
+    }
+    p {
+        font-size: small;
+        font-weight: 300;
+        max-width: 400px;
+        color: #78909c;
+    }
+    hr{
+        width: 100px;
+        border: 1.3px solid #b0bec5;
+    }
+}

@@ -1,0 +1,21 @@
+:host {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    h1 {
+        color: #263238;
+    }
+    h3 {
+        color: #ab47bc;
+        font-weight: 400;
+    }
+    div {
+        span{
+            background-color: #ab47bc;
+            padding: 3px;
+            border-radius: 4px;
+        }
+    }
+}

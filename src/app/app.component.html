@@ -1,2 +1,4 @@
-<app-sidebar></app-sidebar>
+<app-sidebar (document:keydown.control.k)="openModal($event)"></app-sidebar>
 <main>
+    <router-outlet></router-outlet>
+</main>

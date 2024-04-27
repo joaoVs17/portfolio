@@ -1,5 +1,5 @@
 <aside [ngClass]="{'collapsed':collapsed ,'expanded':!collapsed}">
-    <div class="collapsible-item" id="logo"> 
+    <div class="collapsible-item" routerLink="" id="logo"> 
         <div>
             <div>J</div>
             <span>João Vitor Simão</span>
@@ -11,7 +11,7 @@
     <nav>
     <ul>
         <li class="sidebar-button collapsible-item" *ngFor="let topic of topics">
-            <div>
+            <div [routerLinkActive]="'active'" routerLink="/{{topic.link}}">
                 <div><i class="{{topic.icon}}"></i></div>
                 <span>{{topic.title}}</span>
             </div>
